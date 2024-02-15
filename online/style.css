@@ -1,0 +1,89 @@
+body{
+    background-color: #1b202c;
+    display: grid;
+    justify-items: center;
+}
+header{
+    color: #b1c8d8;
+    font-size: large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a{position:relative;
+bottom: -95%;}
+img{height: 100px;
+width: 100%;}
+footer{
+position: absolute;
+bottom: 1%;
+color: #b1c8d8;
+}
+input{
+    width: 98%;
+    height:30%;
+    color: #b1c8d8;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #3C5665;
+    border-style:double;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+h2{
+    color: #b1c8d8;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: x-large;
+}
+h3{
+    color: #c44040;
+
+}
+h4{color: #40c452;}
+#pp{display: grid;
+    justify-content: center;
+    text-align: center;
+    color: #20e20fe0;
+    font-size: large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h6{
+    color: #e9f85e;
+}
+input:hover{
+    font-size:large;
+    color: #c44040;
+}
+#chap{color: #c44040;
+font-size: larger;}
+p{
+    color: #b1c8d8;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+table{border-width:3px ;
+    border-color: aqua;
+    color: aliceblue;
+    width: 95%;
+    height: 50px;
+}
+#ot{
+    width: 49%;
+    height: 50px;
+}
+#soo{animation-name: soon;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes soon {
+    0%{color: #c44040;}
+    25%{color:#4049c4;}
+    50%{color: #40b0c4;}
+    75%{color: #40c452;}
+    100%{color: #b7c440;}
+}
+#displ{
+position: fixed;
+top: 50%;
+left: 45%;
+font-size: xx-large;
+
+}
